@@ -7,6 +7,10 @@ Source code for aaai19 "A Generalized Language Model in Tensor Space". AAAI-2019
 - tensorflow 1.2+
 - torch 0.2+
 
+## DATASETS
+- [PTB](https://raw.githubusercontent.com/lanpa/tensorboard-pytorch-examples/master/word_language_model/data/penn)
+- [WikiText](https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-2-v1.zip)
+
 ## RUN
 For TSLM, run:
 ```
@@ -14,7 +18,7 @@ python Main.py
 ```
 For TSLM+MOS, run:
 ```
-python main.py --data data/penn --dropouti 0.4 --dropoutl 0.29 --dropouth 0.225 --seed 28 --batch_size 12 --lr 20.0 --epoch 1000 --nhid 960 --nhidlast 620 --emsize 280 --n_experts 15  --save PTB 
+python main.py --data data/penn --dropouti 0.4 --dropoutl 0.29 --dropouth 0.225 
 ```
 
 ## REFERENCES
