@@ -1,5 +1,5 @@
 # AAAI19-TSLM
-source code for aaai19 "A Generalized Language Model in Tensor Space"
+Source code for aaai19 "A Generalized Language Model in Tensor Space". AAAI-2019
 
 ## DEPENDENCIES
 - python 2.7+
@@ -18,4 +18,5 @@ python main.py --data data/penn --dropouti 0.4 --dropoutl 0.29 --dropouth 0.225 
 ```
 
 ## REFERENCES
-1. 
+1. Yang, Z.; Dai, Z.; Salakhutdinov, R.; and Cohen, W. W. 2018. Breaking the softmax bottleneck: A high-rank RNN language model. In International Conference on Learning Representations(ICLR).
+2. Mikolov T, Karafiát M, Burget L, et al. Recurrent neural network based language model. Eleventh Annual Conference of the International Speech Communication Association. 2010.
