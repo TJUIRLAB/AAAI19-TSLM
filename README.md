@@ -14,11 +14,11 @@ Source code for aaai19 "A Generalized Language Model in Tensor Space". AAAI-2019
 ## RUN
 For TSLM, run:
 ```
-python Main.py
+python TSLM/Main.py
 ```
 For TSLM+MOS, run:
 ```
-python main.py --data data/penn --dropouti 0.4 --dropoutl 0.29 --dropouth 0.225 
+python TSLM+MOS/main.py --data data/penn --dropouti 0.4 --dropoutl 0.29 --dropouth 0.225 
 ```
 
 ## REFERENCES
